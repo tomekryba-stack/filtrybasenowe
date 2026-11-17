@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0369a1"/>
+    </linearGradient>
+    <clipPath id="dropClip">
+      <path d="M400 90 C400 90 260 250 260 355 A140 140 0 0 0 540 355 C540 250 400 90 400 90 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- kropla wody -->
+  <path d="M400 90 C400 90 260 250 260 355 A140 140 0 0 0 540 355 C540 250 400 90 400 90 Z" fill="url(#drop)"/>
+
+  <!-- siatka filtra + fale wewnątrz kropli -->
+  <g clip-path="url(#dropClip)">
+    <g stroke="#ffffff" stroke-opacity="0.18" stroke-width="3">
+      <line x1="240" y1="200" x2="560" y2="200"/>
+      <line x1="240" y1="240" x2="560" y2="240"/>
+      <line x1="240" y1="280" x2="560" y2="280"/>
+      <line x1="320" y1="80" x2="320" y2="350"/>
+      <line x1="360" y1="80" x2="360" y2="350"/>
+      <line x1="400" y1="80" x2="400" y2="350"/>
+      <line x1="440" y1="80" x2="440" y2="350"/>
+      <line x1="480" y1="80" x2="480" y2="350"/>
+    </g>
+    <path d="M240 345 Q280 320 320 345 T400 345 T480 345 T560 345 V520 H240 Z" fill="#0c4a6e" fill-opacity="0.45"/>
+    <path d="M240 395 Q280 370 320 395 T400 395 T480 395 T560 395" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M240 440 Q280 415 320 440 T400 440 T480 440 T560 440" fill="none" stroke="#bae6fd" stroke-width="8" stroke-linecap="round" stroke-opacity="0.8"/>
+  </g>
+
+  <!-- odblask -->
+  <path d="M330 300 Q330 245 365 200" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-opacity="0.7"/>
+
+  <!-- napis -->
+  <text x="400" y="600" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="78" fill="#0c4a6e" letter-spacing="1">Filtry basenowe</text>
+
+  <!-- strona w budowie -->
+  <rect x="180" y="650" width="440" height="62" rx="31" fill="#f59e0b"/>
+  <text x="400" y="692" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#ffffff" letter-spacing="2">STRONA W BUDOWIE</text>
+</svg>
