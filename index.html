@@ -3,45 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Filtry basenowe – zamiennik oryginalnych filtrów do basenów i jacuzzi</title>
-<meta name="description" content="Zamiennik oryginalnych filtrów do basenów i jacuzzi. Pierzesz, myjesz i używasz ponownie. Kupujesz raz i masz spokój. Tel. 693 262 837.">
+<title>Filtry basenowe – zamienniki oryginalnych filtrów do basenów i jacuzzi</title>
+<meta name="description" content="Zamienniki oryginalnych filtrów do basenów i jacuzzi. Wkład wielokrotnego użytku: pierzesz, myjesz i używasz ponownie. Tel. 693 262 837.">
 <link rel="icon" href="logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap">
 <style>
 body{margin:0;background:#F0F9FF}
 a{color:#0369A1}a:hover{color:#0C4A6E}
-@media (max-width: 860px){
-  .p3-top{padding:24px 24px 0 !important}
-  .p3-hero{padding:40px 24px 170px !important}
-  .p3-water{padding:190px 24px 48px !important}
-  .p3-photo{top:-160px !important}
-}
+@keyframes fb-rise{0%{transform:translateY(0) scale(.6);opacity:0}15%{opacity:1}100%{transform:translateY(-120px) scale(1);opacity:0}}
+@keyframes fb-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.fb-drop{animation:fb-float 4s ease-in-out infinite}
+.fb-b{position:absolute;bottom:38%;border-radius:50%;border:1.5px solid #38BDF8;background:rgba(186,230,253,.35);opacity:0;animation:fb-rise 4.5s ease-out infinite}
+@media (prefers-reduced-motion: reduce){.fb-drop,.fb-b{animation:none !important}.fb-b{display:none}}
 </style>
 </head>
 <body>
-<div style="min-height: 100vh; box-sizing: border-box; background: #F0F9FF; color: #0C4A6E; font-family: 'Poppins', system-ui, sans-serif; display: flex; flex-direction: column">
-<header class="p3-top" style="width: 100%; max-width: 1320px; margin: 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 32px 56px 0">
-<div style="display: flex; align-items: center; gap: 12px"><svg viewBox="255 85 290 415" aria-hidden="true" style="width: 30px; height: auto; display: block"><defs><linearGradient id="p3d" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8"></stop><stop offset="1" stop-color="#0369a1"></stop></linearGradient><clipPath id="p3c"><path d="M400 90 C400 90 260 250 260 355 A140 140 0 0 0 540 355 C540 250 400 90 400 90 Z"></path></clipPath></defs><path d="M400 90 C400 90 260 250 260 355 A140 140 0 0 0 540 355 C540 250 400 90 400 90 Z" fill="url(#p3d)"></path><g clip-path="url(#p3c)"><g stroke="#ffffff" stroke-opacity="0.18" stroke-width="3"><line x1="240" y1="200" x2="560" y2="200"></line><line x1="240" y1="240" x2="560" y2="240"></line><line x1="240" y1="280" x2="560" y2="280"></line><line x1="320" y1="80" x2="320" y2="350"></line><line x1="360" y1="80" x2="360" y2="350"></line><line x1="400" y1="80" x2="400" y2="350"></line><line x1="440" y1="80" x2="440" y2="350"></line><line x1="480" y1="80" x2="480" y2="350"></line></g><path d="M240 345 Q280 320 320 345 T400 345 T480 345 T560 345 V520 H240 Z" fill="#0c4a6e" fill-opacity="0.45"></path><path d="M240 395 Q280 370 320 395 T400 395 T480 395 T560 395" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"></path><path d="M240 440 Q280 415 320 440 T400 440 T480 440 T560 440" fill="none" stroke="#bae6fd" stroke-width="8" stroke-linecap="round" stroke-opacity="0.8"></path></g><path d="M330 300 Q330 245 365 200" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-opacity="0.7"></path></svg><p style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.01em">Filtry basenowe</p></div>
+<div style="min-height: 100vh; box-sizing: border-box; display: flex; flex-direction: column; background: linear-gradient(180deg, #F0F9FF 0%, #E0F2FE 100%); color: #0C4A6E; font-family: 'Poppins', system-ui, sans-serif">
+<main style="flex: 1 1 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; padding: 56px 24px; text-align: center">
+<div aria-hidden="true" style="position: relative; width: 150px; height: 150px; margin-bottom: -8px">
+<span class="fb-b" style="left: 18%; width: 10px; height: 10px; animation-delay: 0s"></span>
+<span class="fb-b" style="left: 78%; width: 14px; height: 14px; animation-delay: 1.4s"></span>
+<span class="fb-b" style="left: 6%; width: 7px; height: 7px; animation-delay: 2.6s"></span>
+<span class="fb-b" style="left: 88%; width: 8px; height: 8px; animation-delay: 3.5s"></span>
+<svg class="fb-drop" viewBox="255 85 290 415" style="position: absolute; left: 25px; top: 6px; width: 100px; height: auto; display: block"><defs><linearGradient id="fbd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8"></stop><stop offset="1" stop-color="#0369a1"></stop></linearGradient><clipPath id="fbc"><path d="M400 90 C400 90 260 250 260 355 A140 140 0 0 0 540 355 C540 250 400 90 400 90 Z"></path></clipPath></defs><path d="M400 90 C400 90 260 250 260 355 A140 140 0 0 0 540 355 C540 250 400 90 400 90 Z" fill="url(#fbd)"></path><g clip-path="url(#fbc)"><g stroke="#ffffff" stroke-opacity="0.18" stroke-width="3"><line x1="240" y1="200" x2="560" y2="200"></line><line x1="240" y1="240" x2="560" y2="240"></line><line x1="240" y1="280" x2="560" y2="280"></line><line x1="320" y1="80" x2="320" y2="350"></line><line x1="360" y1="80" x2="360" y2="350"></line><line x1="400" y1="80" x2="400" y2="350"></line><line x1="440" y1="80" x2="440" y2="350"></line><line x1="480" y1="80" x2="480" y2="350"></line></g><path d="M240 345 Q280 320 320 345 T400 345 T480 345 T560 345 V520 H240 Z" fill="#0c4a6e" fill-opacity="0.45"></path><path d="M240 395 Q280 370 320 395 T400 395 T480 395 T560 395" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"></path><path d="M240 440 Q280 415 320 440 T400 440 T480 440 T560 440" fill="none" stroke="#bae6fd" stroke-width="8" stroke-linecap="round" stroke-opacity="0.8"></path></g><path d="M330 300 Q330 245 365 200" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-opacity="0.7"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 14px">
+<p style="margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.01em">Filtry basenowe</p>
 <p style="margin: 0; padding: 6px 16px; border-radius: 999px; background: #F59E0B; color: #3B1F00; font-size: 14px; font-weight: 600">Strona w budowie</p>
-</header>
-<section class="p3-hero" style="width: 100%; max-width: 1100px; margin: 0 auto; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center; padding: 48px 56px 250px">
-<h1 style="margin: 0; font-size: clamp(42px, 6vw, 92px); line-height: 1.02; font-weight: 700; letter-spacing: -0.035em; color: #0C4A6E">Czysta woda zaczyna się w filtrze.</h1>
-<p style="margin: 0; max-width: 34em; font-size: 18px; line-height: 1.65; color: #24506A">Nasz wkład to zamiennik oryginalnych filtrów do basenów i jacuzzi. Pierzesz go, myjesz i używasz ponownie. Kupujesz raz i masz spokój. Pracujemy nad nową stroną, a do tego czasu odpowiemy na pytania przez telefon i e-mail.</p>
-</section>
-<section class="p3-water" style="position: relative; flex: 1 0 auto; box-sizing: border-box; background: linear-gradient(180deg, #0369A1 0%, #075985 45%, #0C4A6E 100%); color: #FFFFFF; padding: 260px 56px 64px">
-<svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; left: 0; top: -84px; width: 100%; height: 86px; display: block"><path d="M0 64 Q90 24 180 64 T360 64 T540 64 T720 64 T900 64 T1080 64 T1260 64 T1440 64 V120 H0 Z" fill="#38BDF8"></path><path d="M0 84 Q90 54 180 84 T360 84 T540 84 T720 84 T900 84 T1080 84 T1260 84 T1440 84 V120 H0 Z" fill="#0369A1"></path></svg>
-<picture><source srcset="filtr.webp" type="image/webp"><img class="p3-photo" src="filtr.png" width="1100" height="983" alt="Wkład filtracyjny: niebieski perforowany kosz z kulami filtracyjnymi i dekielek z gwintowanym otworem" style="position: absolute; left: 50%; top: -250px; width: min(500px, 84vw); height: auto; transform: translateX(-50%); display: block; filter: drop-shadow(0 26px 30px rgba(3, 20, 40, 0.45))"></picture>
-<svg aria-hidden="true" viewBox="0 0 1440 400" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none"><g fill="none" stroke="#BAE6FD" stroke-opacity="0.28" stroke-width="2"><circle cx="140" cy="120" r="14"></circle><circle cx="176" cy="80" r="7"></circle><circle cx="118" cy="62" r="5"></circle><circle cx="1290" cy="150" r="18"></circle><circle cx="1330" cy="96" r="9"></circle><circle cx="1262" cy="74" r="5"></circle><circle cx="260" cy="320" r="8"></circle><circle cx="1180" cy="330" r="6"></circle></g></svg>
-<div style="position: relative; max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 48px">
-<div style="display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
-<p style="margin: 0; font-size: 18px; color: #E0F2FE">Zadzwoń lub napisz</p>
-<p style="margin: 0; font-size: clamp(48px, 7vw, 104px); line-height: 1; font-weight: 800; letter-spacing: -0.03em; color: #FFFFFF; font-variant-numeric: tabular-nums; white-space: nowrap">693 262 837</p>
-<p style="margin: 8px 0 0; font-size: clamp(20px, 2vw, 26px); font-weight: 600; color: #FDE68A; overflow-wrap: anywhere">tomekryba@gmail.com</p>
 </div>
+<h1 style="margin: 0; max-width: 15em; font-size: clamp(30px, 4.2vw, 52px); line-height: 1.15; font-weight: 700; letter-spacing: -0.02em; color: #0C4A6E">Zamienniki oryginalnych filtrów do basenów i jacuzzi</h1>
+<p style="margin: 0; max-width: 32em; font-size: 18px; line-height: 1.65; color: #24506A">Wkład wielokrotnego użytku: pierzesz, myjesz i używasz ponownie.<br>Pełna oferta pojawi się tu wkrótce.</p>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px; margin-top: 8px">
+<p style="margin: 0; font-size: 15px; color: #24506A">Zamówienia i pytania</p>
+<p style="margin: 0; font-size: clamp(32px, 4vw, 44px); font-weight: 700; color: #0369A1; font-variant-numeric: tabular-nums; white-space: nowrap">693 262 837</p>
+<p style="margin: 0; font-size: 19px; font-weight: 600; color: #0C4A6E; overflow-wrap: anywhere">tomekryba@gmail.com</p>
 </div>
-</div>
-</section>
+</main>
+<footer style="padding: 20px 24px; text-align: center; font-size: 14px; color: #24506A">filtrybasenowe.pl</footer>
 </div>
 </body>
 </html>
